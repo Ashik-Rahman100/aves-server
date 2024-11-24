@@ -17,7 +17,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'https://aves-client.vercel.app'],
+    origin: ['https://aves-client.vercel.app'],
     credentials: true,
   }),
 );
